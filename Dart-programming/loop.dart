@@ -7,6 +7,12 @@ void main()
     print(i);
   }
 
+  // for In loop
+  var names = ['James','John','Maame'];
+  for (var name in names)
+  {
+    print(name);
+  }
   // while loop in dart
   //To also print ages from 20-56
   int age = 20;
